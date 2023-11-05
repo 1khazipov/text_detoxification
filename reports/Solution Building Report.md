@@ -15,10 +15,10 @@ Initially text is corrupted using an arbitrary noising function, and then BART i
 I will use pre-trained s-nlp/bart-base-detox, fine-tune it at 5 epochs and then also save my model to the `models` folder.
 
 ## Results
-input: It was perfectly planned, but stupidly done.
-baseline: It was perfectly planned, but done.
-bert: it was perfectly planned, but expertly done..
-bart: It was perfectly planned and horribly done.
+input: It was perfectly planned, but stupidly done. \\
+baseline: It was perfectly planned, but done. \\
+bert: it was perfectly planned, but expertly done.. \\
+bart: It was perfectly planned and horribly done. \\
 T5: It was perfectly planned, but it was a waste of time.
 
 *I used only part of the dataset (about 10-15%) because I didn't have a powerful gpu to handle the whole dataset. I used google colab to train and test my models, but still did not get high speed in model training. 
