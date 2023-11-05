@@ -69,10 +69,10 @@ For evaluating my models I used the following metrics:
 | Fine-tuned T5 | 26.2724224   | 61.1543288  | 0.5945896         | 0.37347           | 12.7958   |
 | Bart          | 24.8999908   | 62.6516132  | 0.5844694         | 0.3625184         | 20.000000 |
 
-input: It was perfectly planned, but stupidly done.
-baseline: It was perfectly planned, but done.
-bert: it was perfectly planned, but expertly done..
-bart: It was perfectly planned and horribly done.
+input: It was perfectly planned, but stupidly done. \\
+baseline: It was perfectly planned, but done. \\
+bert: it was perfectly planned, but expertly done.. \\
+bart: It was perfectly planned and horribly done. \\
 T5: It was perfectly planned, but it was a waste of time.
 
 As we see, the metrics are still far from perfect, but looking at the translated test sentences, we can say that all models perform well in detoxifying sentences. 
